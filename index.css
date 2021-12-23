@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #2C394B;
+}
+
+header{
+    height:75px;
+    background-color:#082032;
+    display:flex;cursor: pointer;
+}
+.logo img{
+    width: 90px;
+    height: 75px;
+}
+.logo
+{
+color: white;
+height: 75px;
+width: 90px;
+}
+
+.items {
+    display:flex;
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    position: relative;
+    left: 500px;
+    padding-top: 23px;
+}
+.items  .e:hover{
+    color:rgb(8, 124, 14);
+}
+.items  .e{
+    display:inline;
+    list-style-type: none;margin-right: 40px;
+
+}
+.id{width: 41px;
+    height: 37px;
+    margin-left: 529px;
+    margin-top: 15px;
+    display:none;
+
+}
+
+.list-item{
+    
+    background-color: black;height: 4px;
+    width: 30px;
+    margin-bottom: 6px;
+
+}
+
+.container{
+
+min-height: 72vh;
+background-color: black;
+color: white;
+font-family: 'Varela Round', sans-serif;
+display: flex;
+margin: 23px auto;
+width: 80%;
+border-radius: 12px;
+padding: 34px;
+background-image: url('images/bg.jpg');
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top right;
+}
+.song1{
+    height:40px;
+    border:2px solid white;width: 450px;
+    display:flex;
+    margin-bottom: 14px;border-radius: 24px;background-color: white;
+    color: black;
+}
+.song1 img{
+    height:39px;
+    width:50px;border-radius: 63%;
+}
+.song1 p{
+
+padding-left: 0px;
+margin-left: 1px;
+height: 30px;
+width: 300.917px;
+padding-top: 5px;text-align: center;margin-top: 4px;
+}
+.song1 i{
+    margin-top: 4px;
+}
+.time{
+
+padding-top: 5px;
+margin-right: 11px;margin-top: 4px;
+}
+.bottom{
+    display:flex;
+    height:117px;bottom:0;
+    background-color:#2C394B ;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    align-items: center;
+    position:sticky;
+opacity:75%;
+}
+
+#myprogressbar{
+    width:80vw;
+    position: relative;
+    top: 10%;
+}
+.icons{
+    padding-top: 15px;
+}
+.gif{
+position: relative;
+top: -31%;
+right: 34%;
+}
+#gif1{
+    align-self: flex-start;
+    opacity:0;
+    width:100px;
+    height:25px;
+    transition: opacity 0.5s;
+}
+.gif p{
+    color: white;
+    
+}
